@@ -4,10 +4,14 @@
 
 package com.qm.planner.model;
 
+import java.util.UUID;
+
 /**
  * Created by michael on 6/28/2017.
  */
 public class Feature {
+
+    private final UUID id = UUID.randomUUID();
 
     private String name;
 
@@ -26,7 +30,8 @@ public class Feature {
     @Override
     public String toString() {
         return "Feature{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 '}';
     }
 }
