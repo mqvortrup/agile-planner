@@ -26,8 +26,13 @@ public class Main {
 
         System.out.println(g.toJson(backlog));
 
-        Backlog deserBacklog = g.fromJson("{\"name\":\"my backlog\",\"features\":[{\"name\":\"a feature\"},{\"name\":\"another feature\"}]}", Backlog.class);
+        Backlog deserBacklog = g.fromJson(g.toJson(backlog), Backlog.class);
 
         System.out.println(deserBacklog);
+
+        deserBacklog.changeFirstFeatureName("Hold the horses!");
+
+        System.out.println(deserBacklog);
+
     }
 }

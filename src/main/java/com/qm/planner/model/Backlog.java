@@ -5,7 +5,9 @@
 package com.qm.planner.model;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by michael on 6/28/2017.
@@ -13,11 +15,13 @@ import java.util.List;
 public class Backlog {
 
     private String name;
-    private List<Feature> features;
+    private List<Feature> prioritizedFeatures;
+    private Set<Feature> allFeatures;
 
     public Backlog(String name) {
         this.name = name;
-        this.features = new ArrayList<>();
+        this.prioritizedFeatures = new ArrayList<>();
+        this.allFeatures = new HashSet<>();
     }
 
     public String getName() {
@@ -29,14 +33,21 @@ public class Backlog {
     }
 
     public void appendFeature(Feature feature) {
-        this.features.add(feature);
+        this.prioritizedFeatures.add(feature);
+        this.allFeatures.add(feature);
+    }
+
+
+    public void changeFirstFeatureName(String name) {
+        prioritizedFeatures.get(0).setName(name);
     }
 
     @Override
     public String toString() {
         return "Backlog{" +
                 "name='" + name + '\'' +
-                ", features=" + features +
+                ", prioritizedFeatures=" + prioritizedFeatures +
+                ", allFeatures=" + allFeatures +
                 '}';
     }
 }
