@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/planner-model.iml" filepath="$PROJECT_DIR$/.idea/modules/planner-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/planner-model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/planner-model_main.iml" group="planner-model" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/planner-model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/planner-model_test.iml" group="planner-model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/planner-spark/planner-spark.iml" filepath="$PROJECT_DIR$/.idea/modules/planner-spark/planner-spark.iml" group="planner-spark" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/planner-spark/planner-spark_main.iml" filepath="$PROJECT_DIR$/.idea/modules/planner-spark/planner-spark_main.iml" group="planner-spark" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/planner-spark/planner-spark_test.iml" filepath="$PROJECT_DIR$/.idea/modules/planner-spark/planner-spark_test.iml" group="planner-spark" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/planner-springify.iml" filepath="$PROJECT_DIR$/.idea/modules/planner-springify.iml" group="planner-springify" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/planner-springify/planner-springify_main.iml" filepath="$PROJECT_DIR$/.idea/modules/planner-springify/planner-springify_main.iml" group="planner-springify" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/planner-springify/planner-springify_test.iml" filepath="$PROJECT_DIR$/.idea/modules/planner-springify/planner-springify_test.iml" group="planner-springify" />

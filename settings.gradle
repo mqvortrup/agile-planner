@@ -1,3 +1,5 @@
 rootProject.name = 'planner'
 include 'planner-springify'
+include 'planner-spark'
+include 'planner-spark'
 
