@@ -1,2 +1,3 @@
 rootProject.name = 'planner'
+include 'planner-springify'
 
