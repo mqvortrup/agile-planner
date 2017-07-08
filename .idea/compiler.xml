@@ -2,6 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="agile-planner-planner-spark_main" target="1.8" />
+      <module name="agile-planner-planner-spark_test" target="1.8" />
+      <module name="planner-model_main" target="1.8" />
+      <module name="planner-model_test" target="1.8" />
+      <module name="planner-spark_main" target="1.8" />
+      <module name="planner-spark_test" target="1.8" />
+      <module name="planner-springify_main" target="1.8" />
+      <module name="planner-springify_test" target="1.8" />
       <module name="planner_main" target="1.8" />
       <module name="planner_test" target="1.8" />
     </bytecodeTargetLevel>
